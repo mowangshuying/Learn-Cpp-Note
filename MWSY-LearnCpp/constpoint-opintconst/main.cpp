@@ -1,7 +1,6 @@
 #include <iostream>
 
-
-int main(int argc, char** argv)
+int main(int argc, char** argv) 
 {
 	// ³£Á¿
 	const int i1{ 1 };
