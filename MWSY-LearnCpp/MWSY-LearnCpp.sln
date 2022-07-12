@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "constpoint-opintconst", "co
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "format-code-style", "format-code-style\format-code-style.vcxproj", "{5F15332B-FC68-4DBB-BA6F-039D706D6B1C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "new-delete", "new-delete\new-delete.vcxproj", "{26C0FC3F-D5ED-4945-840A-B17279626DDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{5F15332B-FC68-4DBB-BA6F-039D706D6B1C}.Release|x64.Build.0 = Release|x64
 		{5F15332B-FC68-4DBB-BA6F-039D706D6B1C}.Release|x86.ActiveCfg = Release|Win32
 		{5F15332B-FC68-4DBB-BA6F-039D706D6B1C}.Release|x86.Build.0 = Release|Win32
+		{26C0FC3F-D5ED-4945-840A-B17279626DDA}.Debug|x64.ActiveCfg = Debug|x64
+		{26C0FC3F-D5ED-4945-840A-B17279626DDA}.Debug|x64.Build.0 = Debug|x64
+		{26C0FC3F-D5ED-4945-840A-B17279626DDA}.Debug|x86.ActiveCfg = Debug|Win32
+		{26C0FC3F-D5ED-4945-840A-B17279626DDA}.Debug|x86.Build.0 = Debug|Win32
+		{26C0FC3F-D5ED-4945-840A-B17279626DDA}.Release|x64.ActiveCfg = Release|x64
+		{26C0FC3F-D5ED-4945-840A-B17279626DDA}.Release|x64.Build.0 = Release|x64
+		{26C0FC3F-D5ED-4945-840A-B17279626DDA}.Release|x86.ActiveCfg = Release|Win32
+		{26C0FC3F-D5ED-4945-840A-B17279626DDA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
