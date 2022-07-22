@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple-template", "simple-t
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple-concepts", "simple-concepts\simple-concepts.vcxproj", "{7D83FD08-F63A-4C9E-9489-C75BFEE46C05}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "extern-c", "extern-c\extern-c.vcxproj", "{07EC71AE-6F27-417A-B1B8-2B8BF14635A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -251,6 +253,14 @@ Global
 		{7D83FD08-F63A-4C9E-9489-C75BFEE46C05}.Release|x64.Build.0 = Release|x64
 		{7D83FD08-F63A-4C9E-9489-C75BFEE46C05}.Release|x86.ActiveCfg = Release|Win32
 		{7D83FD08-F63A-4C9E-9489-C75BFEE46C05}.Release|x86.Build.0 = Release|Win32
+		{07EC71AE-6F27-417A-B1B8-2B8BF14635A1}.Debug|x64.ActiveCfg = Debug|x64
+		{07EC71AE-6F27-417A-B1B8-2B8BF14635A1}.Debug|x64.Build.0 = Debug|x64
+		{07EC71AE-6F27-417A-B1B8-2B8BF14635A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{07EC71AE-6F27-417A-B1B8-2B8BF14635A1}.Debug|x86.Build.0 = Debug|Win32
+		{07EC71AE-6F27-417A-B1B8-2B8BF14635A1}.Release|x64.ActiveCfg = Release|x64
+		{07EC71AE-6F27-417A-B1B8-2B8BF14635A1}.Release|x64.Build.0 = Release|x64
+		{07EC71AE-6F27-417A-B1B8-2B8BF14635A1}.Release|x86.ActiveCfg = Release|Win32
+		{07EC71AE-6F27-417A-B1B8-2B8BF14635A1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
