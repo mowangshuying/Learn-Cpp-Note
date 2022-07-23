@@ -13,7 +13,7 @@ int main(int argc, char** argv)
 	std::cout << std::format("t1.size={}", std::tuple_size<SimpleTuple>::value) << std::endl;
 
 	////////////////////////////////////////元组的结构化绑定///////////////////////////////////////////////////////
-	
+
 	//绑定值
 	auto [b, i, str] {t1};
 	std::cout << std::format("b={},i={},str={}", b, i, str) << std::endl;
@@ -25,9 +25,9 @@ int main(int argc, char** argv)
 	str1 = "test1";
 	std::cout << std::format("t1 = ({},{},{})", std::get<0>(t1), std::get<1>(t1), std::get<2>(t1)) << std::endl;
 
-	
+
 	////////////////////////////////////////使用tie()函数进行结构化绑定/////////////////////////////////////////////
-	
+
 	std::tuple t3{ true,3,"test3" };
 	bool b3 = false;
 	int i3 = 0;
