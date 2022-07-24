@@ -1,8 +1,8 @@
 /**
- * mowangshuying
- * 2022/7/24
- * @brief: 集合操作:判断集合的包含关系(cpp17/cpp20)
- * @detail:使用std::includes判断两个集合之间的关系，需要引入头文件
+ * @作者：mowangshuying
+ * @时间：2022/7/24
+ * @简介: 集合操作:判断集合的包含关系(cpp17/cpp20)
+ * @细则:使用std::includes判断两个集合之间的关系，需要引入头文件
  * algorithm(算法库)
 */
 
@@ -64,6 +64,8 @@ int main(int argc, char** argv)
 	//vct1 = { 1,2,3,4,5 }
 	//vct3 = { 1,2,3}
 	//向vct3放入4,3,放入之后由于不是顺序排列需要对vct3进行排序后再调用std::includes
+	//放入元素之后的vct3 = {1,2,3,4,3}
+	//包含关系与数量无关，因为vct3中含有两个3，但是vct1中只有一个3
 
 	std::cout << "************************分割线*******************************" << std::endl;
 	vct3.push_back(4);
@@ -80,9 +82,6 @@ int main(int argc, char** argv)
 	{
 		std::cout << "the vct1 is sub of vct3";
 	}
-
-
-	
 
 	return 0;
 }
