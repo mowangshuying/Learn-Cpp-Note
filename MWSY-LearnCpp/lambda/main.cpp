@@ -30,5 +30,26 @@ int main(int argc, char** argv)
 	lambdaFunc5();
 	std::cout << "str5 = "<< str5 << std::endl;
 
+	std::string str6 = "this is lambda6 string";
+	auto lambdaFunc6 = [=]() {
+		//按值捕获作用域中所有变量
+		std::cout << " lambdaFunc6 - " << str4 << std::endl;
+		std::cout << " lambdaFunc6 - " << str5 << std::endl;
+		std::cout << " lambdaFunc6 - " << str6 << std::endl;
+	};
+	lambdaFunc6();
+
+	auto lambdaFunc7 = [&]() {
+		str4 = "this is lambda4 string.reset by lambdaFunc7";
+		str5 = "this is lambda5 string.reset by lambdaFunc7";
+		str6 = "this is lambda6 string.reset by lambdaFunc7";
+	};
+	lambdaFunc7();
+
+	std::cout << str4 << std::endl;
+	std::cout << str5 << std::endl;
+	std::cout << str6 << std::endl;
+
+
 	return 0;
 }
