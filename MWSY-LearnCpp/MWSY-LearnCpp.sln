@@ -105,6 +105,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bind", "bind\bind.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class-memfunc-raw-point", "class-memfunc-raw-point\class-memfunc-raw-point.vcxproj", "{BC2275A9-C654-4AA4-B397-F289FC8F8D3C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lambda", "lambda\lambda.vcxproj", "{8ED5B442-FCE7-4F71-BF0F-E7257B90FE91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -521,6 +523,14 @@ Global
 		{BC2275A9-C654-4AA4-B397-F289FC8F8D3C}.Release|x64.Build.0 = Release|x64
 		{BC2275A9-C654-4AA4-B397-F289FC8F8D3C}.Release|x86.ActiveCfg = Release|Win32
 		{BC2275A9-C654-4AA4-B397-F289FC8F8D3C}.Release|x86.Build.0 = Release|Win32
+		{8ED5B442-FCE7-4F71-BF0F-E7257B90FE91}.Debug|x64.ActiveCfg = Debug|x64
+		{8ED5B442-FCE7-4F71-BF0F-E7257B90FE91}.Debug|x64.Build.0 = Debug|x64
+		{8ED5B442-FCE7-4F71-BF0F-E7257B90FE91}.Debug|x86.ActiveCfg = Debug|Win32
+		{8ED5B442-FCE7-4F71-BF0F-E7257B90FE91}.Debug|x86.Build.0 = Debug|Win32
+		{8ED5B442-FCE7-4F71-BF0F-E7257B90FE91}.Release|x64.ActiveCfg = Release|x64
+		{8ED5B442-FCE7-4F71-BF0F-E7257B90FE91}.Release|x64.Build.0 = Release|x64
+		{8ED5B442-FCE7-4F71-BF0F-E7257B90FE91}.Release|x86.ActiveCfg = Release|Win32
+		{8ED5B442-FCE7-4F71-BF0F-E7257B90FE91}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
