@@ -127,6 +127,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "regex-replace", "regex-repl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thread-call-once", "thread-call-once\thread-call-once.vcxproj", "{F2ECF433-330E-46E5-8CB1-7D615B624E75}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thread-future-promise", "thread-future-promise\thread-future-promise.vcxproj", "{78BF7F32-73B5-4A96-9FB9-AB41371AE8DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -631,6 +633,14 @@ Global
 		{F2ECF433-330E-46E5-8CB1-7D615B624E75}.Release|x64.Build.0 = Release|x64
 		{F2ECF433-330E-46E5-8CB1-7D615B624E75}.Release|x86.ActiveCfg = Release|Win32
 		{F2ECF433-330E-46E5-8CB1-7D615B624E75}.Release|x86.Build.0 = Release|Win32
+		{78BF7F32-73B5-4A96-9FB9-AB41371AE8DF}.Debug|x64.ActiveCfg = Debug|x64
+		{78BF7F32-73B5-4A96-9FB9-AB41371AE8DF}.Debug|x64.Build.0 = Debug|x64
+		{78BF7F32-73B5-4A96-9FB9-AB41371AE8DF}.Debug|x86.ActiveCfg = Debug|Win32
+		{78BF7F32-73B5-4A96-9FB9-AB41371AE8DF}.Debug|x86.Build.0 = Debug|Win32
+		{78BF7F32-73B5-4A96-9FB9-AB41371AE8DF}.Release|x64.ActiveCfg = Release|x64
+		{78BF7F32-73B5-4A96-9FB9-AB41371AE8DF}.Release|x64.Build.0 = Release|x64
+		{78BF7F32-73B5-4A96-9FB9-AB41371AE8DF}.Release|x86.ActiveCfg = Release|Win32
+		{78BF7F32-73B5-4A96-9FB9-AB41371AE8DF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
