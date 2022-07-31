@@ -135,6 +135,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thread-mutex", "thread-mute
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "set", "set\set.vcxproj", "{E23D8F0D-436B-4BC1-A09F-BE29372C5E30}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "multi-array", "multi-array\multi-array.vcxproj", "{F7D74354-4BD6-447A-9630-A3A9F17F37EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -671,6 +673,14 @@ Global
 		{E23D8F0D-436B-4BC1-A09F-BE29372C5E30}.Release|x64.Build.0 = Release|x64
 		{E23D8F0D-436B-4BC1-A09F-BE29372C5E30}.Release|x86.ActiveCfg = Release|Win32
 		{E23D8F0D-436B-4BC1-A09F-BE29372C5E30}.Release|x86.Build.0 = Release|Win32
+		{F7D74354-4BD6-447A-9630-A3A9F17F37EE}.Debug|x64.ActiveCfg = Debug|x64
+		{F7D74354-4BD6-447A-9630-A3A9F17F37EE}.Debug|x64.Build.0 = Debug|x64
+		{F7D74354-4BD6-447A-9630-A3A9F17F37EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{F7D74354-4BD6-447A-9630-A3A9F17F37EE}.Debug|x86.Build.0 = Debug|Win32
+		{F7D74354-4BD6-447A-9630-A3A9F17F37EE}.Release|x64.ActiveCfg = Release|x64
+		{F7D74354-4BD6-447A-9630-A3A9F17F37EE}.Release|x64.Build.0 = Release|x64
+		{F7D74354-4BD6-447A-9630-A3A9F17F37EE}.Release|x86.ActiveCfg = Release|Win32
+		{F7D74354-4BD6-447A-9630-A3A9F17F37EE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
