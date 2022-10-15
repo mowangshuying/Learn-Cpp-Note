@@ -1,18 +1,25 @@
 #include <iostream>
 #include <typeinfo>
+#include <string>
 
-using namespace std;
 template <typename T>
-class Type {
+class Type 
+{
 public:
-	static string name() { return typeid(T).name(); }
+	static std::string name() 
+	{
+		std::cout << "Type::name()" << std::endl;
+		return typeid(T).name(); 
+	}
 };
 
 template <>
-class Type<char> {
+class Type<char>
+{
 public:
-	static string name() 
-	{ 
+	static std::string name() 
+	{
+		std::cout << "Type<char>::name()" << std::endl;
 		return "char"; 
 	};
 };
