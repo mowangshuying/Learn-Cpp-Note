@@ -51,5 +51,16 @@ int main(int argc, char** argv)
 	std::cout << str6 << std::endl;
 
 
+	auto lambdaFunc8 = [](int n) {
+		return [n](int m) {
+			return [m,n](int k) {
+				return m + n + k;
+			};
+		};
+	};
+
+	std::cout<<lambdaFunc8(2)(3)(4)<<std::endl;
+
+
 	return 0;
 }
