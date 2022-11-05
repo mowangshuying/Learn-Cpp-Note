@@ -8,16 +8,20 @@ void doWork(std::promise<int> theProm)
 
 int main(int argc, char** argv)
 {
-	std::promise<int> prom;
-	auto futu = prom.get_future();
+	// 1.主线程中创建promise
+	std::promise<int> tmpPromise;
+	// 2.获取future以便后续获取到 tmpThread计算的结果值
+	std::future<int> tmpFuture = tmpPromise.get_future();
 
-	std::thread th(&doWork, std::move(prom));
+	// 3.将prom移动到其他线程中，无法复制tmpPromise只能移动它
+	std::thread tmpThread(&doWork, std::move(tmpPromise));
 
-	//
-	int result = futu.get();
+	// 4.获取到线程计算结果
+	int result = tmpFuture.get();
 	std::cout << "result = " << result << std::endl;
 
-	th.join();
+	tmpThread.join();
+	std::cout << "main thread end." << std::endl;
 
 	return 0;
 }
