@@ -41,17 +41,17 @@ public:
 public:
 	enum
 	{
-		exists = sizeof(Test(MakeT())) == sizeof(Small)
+		exists = sizeof(Test(MakeT())) == sizeof(Small),
 	};
 
 	enum
 	{
-		exists2Way = exists && Conversion<U, T>::exists;
+		exists2Way = exists && Conversion<U, T>::exists,
 	};
 
 	enum
 	{
-		sameType = false;
+		sameType = false,
 	};
 
 	//constexpr int t1_ = 1;

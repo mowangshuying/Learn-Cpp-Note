@@ -175,6 +175,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "variadic-templates", "varia
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nullptr", "nullptr\nullptr.vcxproj", "{4A5D2E62-5D9D-40BB-8AC2-6E18E1AC1FAE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "initialization", "initialization\initialization.vcxproj", "{4890FBA2-B4C6-4701-A016-39D833B54790}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -871,6 +873,14 @@ Global
 		{4A5D2E62-5D9D-40BB-8AC2-6E18E1AC1FAE}.Release|x64.Build.0 = Release|x64
 		{4A5D2E62-5D9D-40BB-8AC2-6E18E1AC1FAE}.Release|x86.ActiveCfg = Release|Win32
 		{4A5D2E62-5D9D-40BB-8AC2-6E18E1AC1FAE}.Release|x86.Build.0 = Release|Win32
+		{4890FBA2-B4C6-4701-A016-39D833B54790}.Debug|x64.ActiveCfg = Debug|x64
+		{4890FBA2-B4C6-4701-A016-39D833B54790}.Debug|x64.Build.0 = Debug|x64
+		{4890FBA2-B4C6-4701-A016-39D833B54790}.Debug|x86.ActiveCfg = Debug|Win32
+		{4890FBA2-B4C6-4701-A016-39D833B54790}.Debug|x86.Build.0 = Debug|Win32
+		{4890FBA2-B4C6-4701-A016-39D833B54790}.Release|x64.ActiveCfg = Release|x64
+		{4890FBA2-B4C6-4701-A016-39D833B54790}.Release|x64.Build.0 = Release|x64
+		{4890FBA2-B4C6-4701-A016-39D833B54790}.Release|x86.ActiveCfg = Release|Win32
+		{4890FBA2-B4C6-4701-A016-39D833B54790}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

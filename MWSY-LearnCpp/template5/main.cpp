@@ -86,6 +86,12 @@
 //	
 //};
 
-template <typename RusultType, class TList>
-class Functor {
-};
+//template <typename RusultType, class TList>
+//class Functor {
+//};
+
+
+int main(int argc, char** argv)
+{
+	return 0;
+}

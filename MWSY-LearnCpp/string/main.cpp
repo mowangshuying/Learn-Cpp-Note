@@ -8,5 +8,5 @@ const char* getHelloWroldStr()
 
 int main(int argc, char** argv)
 {
-	getHelloWroldStr.substr(7);
+	//getHelloWroldStr.substr(7);
 }
