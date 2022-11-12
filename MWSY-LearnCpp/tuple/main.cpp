@@ -6,6 +6,8 @@
 int main(int argc, char** argv)
 {
 	using SimpleTuple = std::tuple<bool, int, std::string>;
+	// std::tuple_element< 0, SimpleTuple>::type sb = false;
+
 	SimpleTuple t1{ true,1,"test" };
 	//获取元组内的元素
 	std::cout << std::format("t1 = ({},{},{})", std::get<0>(t1), std::get<1>(t1), std::get<2>(t1)) << std::endl;

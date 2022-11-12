@@ -23,5 +23,9 @@ int main(int argc, char** argv)
 	tmpThread.join();
 	std::cout << "main thread end." << std::endl;
 
+
+	//std::string str = std::move(str2);
+	//c_str
+
 	return 0;
 }

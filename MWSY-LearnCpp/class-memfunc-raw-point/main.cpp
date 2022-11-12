@@ -15,12 +15,15 @@ public:
 private:
 	std::string name_ = "ClassObject";
 };
+
 int main(int argc, char** argv)
 {
 	ClassObject co;
 	// 声明类成员的函数指针
 	std::string (ClassObject::*rawGetFuncPtr)() = &ClassObject::getName;
 	std::cout<<"rawGetFuncPtr:"<<(co.*rawGetFuncPtr)() << std::endl;
+
+	//(co.*rawGetFuncPtr)();
 
 	// 通过使用using定义函数的别名
 	using UsingGetFuncPtr = std::string(ClassObject::*)();
